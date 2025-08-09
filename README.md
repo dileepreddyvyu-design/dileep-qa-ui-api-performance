@@ -69,14 +69,21 @@ cd ui-automation
 mvn clean test
 mvn clean test -Dbrowser=edge
 ```
-API Testing
-Tested CRUD operations on reqres.in
-Validated status codes, response bodies, and performance.
-Generated HTML reports with Newman
-**Run API tests:**
-```bash
-newman run api-tests/Ecommerce.postman_collection.json \
-    -e api-tests/Ecommerce.postman_environment.json -r html
+## API Testing
+Newman CLI run of the Postman collection.
+
+- **HTML Report:** [View API Newman Report](reports/api-newman-report.html)
+- **Collection:** `api-tests/Ecommerce.postman_collection.json`
+- **Environment:** `api-tests/Ecommerce.postman_environment.json`
+
+## Performance Testing (JMeter)
+25 virtual users with a 30-second ramp-up on the public API.
+
+- **JTL Results (raw):** [reports/jmeter-results.jtl](reports/jmeter-results.jtl)
+
+**Summary screenshots**
+![JMeter Dashboard](reports/jmeter-dashboard.png)
+![JMeter Statistics](reports/jmeter-stats.png)
 ```
 Performance Testing
 JMeter test with 25 virtual users and 30-second ramp-up.
