@@ -52,6 +52,7 @@ performance-summary.md
 ---
 
 ## UI Automation
+![UI Automation Demo](reports/ui-automation-test-run.gif)
 - Automated critical flows for login, sorting, cart, and checkout
 - Cross-browser support (Chrome, Edge)
 - Assertions for validation of UI elements and text
