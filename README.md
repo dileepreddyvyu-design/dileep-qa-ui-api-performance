@@ -72,13 +72,14 @@ mvn clean test -Dbrowser=edge
 ## API Testing
 Newman CLI run of the Postman collection.
 
-- **HTML Report:** [View API Newman Report](reports/api-newman-report.html)
+- **HTML Report:** [View API Newman Report](https://dileepreddyvyu-design.github.io/dileep-qa-ui-api-performance/reports/api-newman-report.html)
 - **Collection:** `api-tests/Ecommerce.postman_collection.json`
 - **Environment:** `api-tests/Ecommerce.postman_environment.json`
 
 ## Performance Testing (JMeter)
 25 virtual users with a 30-second ramp-up on the public API.
 
+**JMeter HTML Dashboard:** [View Performance Report](https://dileepreddyvyu-design.github.io/dileep-qa-ui-api-performance/index.html)
 - **JTL Results (raw):** [reports/jmeter-results.jtl](reports/jmeter-results.jtl)
 
 **Summary screenshots**
